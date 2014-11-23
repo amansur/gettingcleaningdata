@@ -24,7 +24,7 @@ The tidy dataset consists of observations from both training and test datasets m
 ## Tidy data variable listing
 <table>
 <thead>
-<td>Column number</td><td>Column name</td><td>Variable description</td>
+<td>**Column number**</td><td>**Column name**</td><td>**Variable description**</td>
 </thead>
 <tbody>
           <tr><td>1.</td><td>"tBodyAcc.mean...X"                  </td><td>Time-domain; Mean; X-axis; Acceleration of subject;
