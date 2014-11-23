@@ -2,6 +2,6 @@
 
 ## Files included
 
-* run_analysis.R - script should be in same directory as dataset (i.e. in the same directory as README.txt)
+* run_analysis.R - script should be in same directory as dataset (i.e. in the same directory as README.txt included with original dataset)
 * README.md - this file
 * Codebook.md - contains description of original dataset, tidy dataset, and data transformations
