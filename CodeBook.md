@@ -105,3 +105,5 @@ The tidy dataset consists of observations from both training and test datasets m
 
 ## Other notes
 The original dataset contained a number of variables that were the calculated angle between two vectors. Because this variable is a measure of comparison between two vectors, it was not included in tidy dataset. The two vectors being compared are the mean of their respective sample windows, and are provided in the tidy dataset but the angle between them is not included.
+
+meanFreq variables were maintained as they provided a measure of centrality equivalent to the mean variables. meanFreq is required as some original transformations were performed on the raw data such that measurements were converted from the time domain to the frequency domain. Thus meanFreq is an appropriate measure of centrality to extract into the tidy dataset.
