@@ -2,7 +2,7 @@
 
 ## Original dataset description
 
-Measurements from the three-axis acclerometer and three-axis gyroscope of a Samsung Galaxy SII smartphone were taken when 30 subjects performed 6 activities. Measurements were taken at 50Hz and were "sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window)." Measurements along each axis were reported separately.
+Measurements from the three-axis acclerometer and three-axis gyroscope of a Samsung Galaxy SII smartphone were taken when 30 subjects performed six activities (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying). Measurements were taken at 50Hz and were "sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window)." Measurements along each axis were reported separately.
 
 A number of mathematical transformations were applied on the raw dataset. These are described in the features_info.txt file included with the original dataset. In addition to these transformations, because there were a large number of samples per observation window, additional variables were created to obtain summary figures for each observation (e.g. mean, std, min, max, etc.).
 
@@ -18,6 +18,7 @@ The tidy dataset consists of observations from both training and test datasets m
 * Training and test data were merged.
 * Descriptive variable labels attached to the columns.
 * Subject and activity labels were included for each observation. 
+* Activity factors were applied.
 * Mean and standard deviation of variables in each sample window/observation period were extracted
 * The mean of each variable was obtained, grouped by activity and subject. These means are reported in the tidy dataset in long form.
 
