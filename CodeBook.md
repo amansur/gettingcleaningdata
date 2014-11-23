@@ -22,87 +22,95 @@ The tidy dataset consists of observations from both training and test datasets m
 * The mean of each variable was obtained, grouped by activity and subject. These means are reported in the tidy dataset. The variables are listed below.
 
 ## Tidy data variable listing
-1. "tBodyAcc.mean...X"              
-2. "tBodyAcc.mean...Y"              
-3. "tBodyAcc.mean...Z"              
-4. "tBodyAcc.std...X"               
-5. "tBodyAcc.std...Y"               
-6. "tBodyAcc.std...Z"               
-7. "tGravityAcc.mean...X"           
-8. "tGravityAcc.mean...Y"           
-9. "tGravityAcc.mean...Z"           
-10. "tGravityAcc.std...X"            
-11. "tGravityAcc.std...Y"            
-12. "tGravityAcc.std...Z"            
-13. "tBodyAccJerk.mean...X"          
-14. "tBodyAccJerk.mean...Y"          
-15. "tBodyAccJerk.mean...Z"          
-16. "tBodyAccJerk.std...X"           
-17. "tBodyAccJerk.std...Y"           
-18. "tBodyAccJerk.std...Z"           
-19. "tBodyGyro.mean...X"             
-20. "tBodyGyro.mean...Y"             
-21. "tBodyGyro.mean...Z"             
-22. "tBodyGyro.std...X"              
-23. "tBodyGyro.std...Y"              
-24. "tBodyGyro.std...Z"              
-25. "tBodyGyroJerk.mean...X"         
-26. "tBodyGyroJerk.mean...Y"         
-27. "tBodyGyroJerk.mean...Z"         
-28. "tBodyGyroJerk.std...X"          
-29. "tBodyGyroJerk.std...Y"          
-30. "tBodyGyroJerk.std...Z"          
-31. "tBodyAccMag.mean.."             
-32. "tBodyAccMag.std.."              
-33. "tGravityAccMag.mean.."          
-34. "tGravityAccMag.std.."           
-35. "tBodyAccJerkMag.mean.."         
-36. "tBodyAccJerkMag.std.."          
-37. "tBodyGyroMag.mean.."            
-38. "tBodyGyroMag.std.."             
-39. "tBodyGyroJerkMag.mean.."        
-40. "tBodyGyroJerkMag.std.."         
-41. "fBodyAcc.mean...X"              
-42. "fBodyAcc.mean...Y"              
-43. "fBodyAcc.mean...Z"              
-44. "fBodyAcc.std...X"               
-45. "fBodyAcc.std...Y"               
-46. "fBodyAcc.std...Z"               
-47. "fBodyAcc.meanFreq...X"          
-48. "fBodyAcc.meanFreq...Y"          
-49. "fBodyAcc.meanFreq...Z"          
-50. "fBodyAccJerk.mean...X"          
-51. "fBodyAccJerk.mean...Y"          
-52. "fBodyAccJerk.mean...Z"          
-53. "fBodyAccJerk.std...X"           
-54. "fBodyAccJerk.std...Y"           
-55. "fBodyAccJerk.std...Z"           
-56. "fBodyAccJerk.meanFreq...X"      
-57. "fBodyAccJerk.meanFreq...Y"      
-58. "fBodyAccJerk.meanFreq...Z"      
-59. "fBodyGyro.mean...X"             
-60. "fBodyGyro.mean...Y"             
-61. "fBodyGyro.mean...Z"             
-62. "fBodyGyro.std...X"              
-63. "fBodyGyro.std...Y"              
-64. "fBodyGyro.std...Z"              
-65. "fBodyGyro.meanFreq...X"         
-66. "fBodyGyro.meanFreq...Y"         
-67. "fBodyGyro.meanFreq...Z"         
-68. "fBodyAccMag.mean.."             
-69. "fBodyAccMag.std.."              
-70. "fBodyAccMag.meanFreq.."         
-71. "fBodyBodyAccJerkMag.mean.."     
-72. "fBodyBodyAccJerkMag.std.."      
-73. "fBodyBodyAccJerkMag.meanFreq.." 
-74. "fBodyBodyGyroMag.mean.."        
-75. "fBodyBodyGyroMag.std.."         
-76. "fBodyBodyGyroMag.meanFreq.."    
-77. "fBodyBodyGyroJerkMag.mean.."    
-78. "fBodyBodyGyroJerkMag.std.."     
-79. "fBodyBodyGyroJerkMag.meanFreq.."
-80. "subject"
-81. "activity"
+<table>
+<thead>
+<td>Column number</td><td>Column name</td><td>Variable description</td>
+</thead>
+<tbody>
+          <tr><td>1.</td><td>"tBodyAcc.mean...X"                  </td><td>Time-domain; Mean; X-axis; Acceleration of subject;
+</td></tr><tr><td>2.</td><td>"tBodyAcc.mean...Y"                  </td><td>Time-domain; Mean; Y-axis; Acceleration of subject;
+</td></tr><tr><td>3.</td><td>"tBodyAcc.mean...Z"                  </td><td>Time-domain; Mean; Z-axis; Acceleration of subject;
+</td></tr><tr><td>4.</td><td>"tBodyAcc.std...X"                   </td><td>Time-domain; Std dev; X-axis; Acceleration of subject;
+</td></tr><tr><td>5.</td><td>"tBodyAcc.std...Y"                   </td><td>Time-domain; Std dev; Y-axis; Acceleration of subject;
+</td></tr><tr><td>6.</td><td>"tBodyAcc.std...Z"                   </td><td>Time-domain; Std dev; Z-axis; Acceleration of subject;
+</td></tr><tr><td>7.</td><td>"tGravityAcc.mean...X"               </td><td>Time-domain; Mean; X-axis; Acceleration due to gravity;
+</td></tr><tr><td>8.</td><td>"tGravityAcc.mean...Y"               </td><td>Time-domain; Mean; Y-axis; Acceleration due to gravity;
+</td></tr><tr><td>9.</td><td>"tGravityAcc.mean...Z"               </td><td>Time-domain; Mean; Z-axis; Acceleration due to gravity;
+</td></tr><tr><td>10.</td><td>"tGravityAcc.std...X"               </td><td>Time-domain; Std dev; X-axis; Acceleration due to gravity;
+</td></tr><tr><td>11.</td><td>"tGravityAcc.std...Y"               </td><td>Time-domain; Std dev; Y-axis; Acceleration due to gravity;
+</td></tr><tr><td>12.</td><td>"tGravityAcc.std...Z"               </td><td>Time-domain; Std dev; Z-axis; Acceleration due to gravity;
+</td></tr><tr><td>13.</td><td>"tBodyAccJerk.mean...X"             </td><td>Time-domain; Mean; X-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>14.</td><td>"tBodyAccJerk.mean...Y"             </td><td>Time-domain; Mean; Y-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>15.</td><td>"tBodyAccJerk.mean...Z"             </td><td>Time-domain; Mean; Z-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>16.</td><td>"tBodyAccJerk.std...X"              </td><td>Time-domain; Std dev; X-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>17.</td><td>"tBodyAccJerk.std...Y"              </td><td>Time-domain; Std dev; Y-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>18.</td><td>"tBodyAccJerk.std...Z"              </td><td>Time-domain; Std dev; Z-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>19.</td><td>"tBodyGyro.mean...X"                </td><td>Time-domain; Mean; X-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>20.</td><td>"tBodyGyro.mean...Y"                </td><td>Time-domain; Mean; Y-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>21.</td><td>"tBodyGyro.mean...Z"                </td><td>Time-domain; Mean; Z-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>22.</td><td>"tBodyGyro.std...X"                 </td><td>Time-domain; Std dev; X-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>23.</td><td>"tBodyGyro.std...Y"                 </td><td>Time-domain; Std dev; Y-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>24.</td><td>"tBodyGyro.std...Z"                 </td><td>Time-domain; Std dev; Z-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>25.</td><td>"tBodyGyroJerk.mean...X"            </td><td>Time-domain; Mean; X-axis; Jerk of gyroscope of subject;
+</td></tr><tr><td>26.</td><td>"tBodyGyroJerk.mean...Y"            </td><td>Time-domain; Mean; Y-axis; Jerk of gyroscope of subject;
+</td></tr><tr><td>27.</td><td>"tBodyGyroJerk.mean...Z"            </td><td>Time-domain; Mean; Z-axis; Jerk of gyroscope of subject;
+</td></tr><tr><td>28.</td><td>"tBodyGyroJerk.std...X"             </td><td>Time-domain; Std dev; Jerk of gyroscope of subject;
+</td></tr><tr><td>29.</td><td>"tBodyGyroJerk.std...Y"             </td><td>Time-domain; Std dev; Jerk of gyroscope of subject;
+</td></tr><tr><td>30.</td><td>"tBodyGyroJerk.std...Z"             </td><td>Time-domain; Std dev; Jerk of gyroscope of subject;
+</td></tr><tr><td>31.</td><td>"tBodyAccMag.mean.."                </td><td>Time-domain; Mean; Magnitude of acceleration of subject;
+</td></tr><tr><td>32.</td><td>"tBodyAccMag.std.."                 </td><td>Time-domain; Std dev; Magnitude of acceleration of subject;
+</td></tr><tr><td>33.</td><td>"tGravityAccMag.mean.."             </td><td>Time-domain; Mean; Magnitude of acceleration due to gravity;
+</td></tr><tr><td>34.</td><td>"tGravityAccMag.std.."              </td><td>Time-domain; Std dev; Magnitude of acceleration due to gravity;
+</td></tr><tr><td>35.</td><td>"tBodyAccJerkMag.mean.."            </td><td>Time-domain; Mean; Magnitude of jerk of acceleration of subject;
+</td></tr><tr><td>36.</td><td>"tBodyAccJerkMag.std.."             </td><td>Time-domain; Std dev; Magnitude of jerk of acceleration of subject;
+</td></tr><tr><td>37.</td><td>"tBodyGyroMag.mean.."               </td><td>Time-domain; Mean; Magnitude of gyroscope measurement of subject;
+</td></tr><tr><td>38.</td><td>"tBodyGyroMag.std.."                </td><td>Time-domain; Std dev; Magnitude of gyroscope measurement of subject;
+</td></tr><tr><td>39.</td><td>"tBodyGyroJerkMag.mean.."           </td><td>Time-domain; Mean; Magnitude of jerk of gyroscope measurement of subject;
+</td></tr><tr><td>40.</td><td>"tBodyGyroJerkMag.std.."            </td><td>Time-domain; Std dev; Magnitude of jerk of gyroscope measurement of subject;
+</td></tr><tr><td>41.</td><td>"fBodyAcc.mean...X"                 </td><td>Frequency-domain; Mean; X-axis; Acceleration of subject;
+</td></tr><tr><td>42.</td><td>"fBodyAcc.mean...Y"                 </td><td>Frequency-domain; Mean; Y-axis; Acceleration of subject;
+</td></tr><tr><td>43.</td><td>"fBodyAcc.mean...Z"                 </td><td>Frequency-domain; Mean; Z-axis; Acceleration of subject;
+</td></tr><tr><td>44.</td><td>"fBodyAcc.std...X"                  </td><td>Frequency-domain; Std dev; X-axis; Acceleration of subject;
+</td></tr><tr><td>45.</td><td>"fBodyAcc.std...Y"                  </td><td>Frequency-domain; Std dev; Y-axis; Acceleration of subject;
+</td></tr><tr><td>46.</td><td>"fBodyAcc.std...Z"                  </td><td>Frequency-domain; Std dev; Z-axis; Acceleration of subject;
+</td></tr><tr><td>47.</td><td>"fBodyAcc.meanFreq...X"             </td><td>Frequency-domain; Mean frequency; X-axis; Acceleration of subject;
+</td></tr><tr><td>48.</td><td>"fBodyAcc.meanFreq...Y"             </td><td>Frequency-domain; Mean frequency; Y-axis; Acceleration of subject;
+</td></tr><tr><td>49.</td><td>"fBodyAcc.meanFreq...Z"             </td><td>Frequency-domain; Mean frequency; Z-axis; Acceleration of subject;
+</td></tr><tr><td>50.</td><td>"fBodyAccJerk.mean...X"             </td><td>Frequency-domain; Mean; X-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>51.</td><td>"fBodyAccJerk.mean...Y"             </td><td>Frequency-domain; Mean; Y-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>52.</td><td>"fBodyAccJerk.mean...Z"             </td><td>Frequency-domain; Mean; Z-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>53.</td><td>"fBodyAccJerk.std...X"              </td><td>Frequency-domain; Std dev; X-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>54.</td><td>"fBodyAccJerk.std...Y"              </td><td>Frequency-domain; Std dev; Y-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>55.</td><td>"fBodyAccJerk.std...Z"              </td><td>Frequency-domain; Std dev; Z-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>56.</td><td>"fBodyAccJerk.meanFreq...X"         </td><td>Frequency-domain; Mean frequency; X-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>57.</td><td>"fBodyAccJerk.meanFreq...Y"         </td><td>Frequency-domain; Mean frequency; Y-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>58.</td><td>"fBodyAccJerk.meanFreq...Z"         </td><td>Frequency-domain; Mean frequency; Z-axis; Jerk of acceleration of subject;
+</td></tr><tr><td>59.</td><td>"fBodyGyro.mean...X"                </td><td>Frequency-domain; Mean; X-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>60.</td><td>"fBodyGyro.mean...Y"                </td><td>Frequency-domain; Mean; Y-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>61.</td><td>"fBodyGyro.mean...Z"                </td><td>Frequency-domain; Mean; Z-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>62.</td><td>"fBodyGyro.std...X"                 </td><td>Frequency-domain; Std dev; X-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>63.</td><td>"fBodyGyro.std...Y"                 </td><td>Frequency-domain; Std dev; Y-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>64.</td><td>"fBodyGyro.std...Z"                 </td><td>Frequency-domain; Std dev; Z-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>65.</td><td>"fBodyGyro.meanFreq...X"            </td><td>Frequency-domain; Mean frequency; X-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>66.</td><td>"fBodyGyro.meanFreq...Y"            </td><td>Frequency-domain; Mean frequency; Y-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>67.</td><td>"fBodyGyro.meanFreq...Z"            </td><td>Frequency-domain; Mean frequency; Z-axis; Gyroscope measurement of subject;
+</td></tr><tr><td>68.</td><td>"fBodyAccMag.mean.."                </td><td>Frequency-domain; Mean; Magnitude of acceleration of subject;
+</td></tr><tr><td>69.</td><td>"fBodyAccMag.std.."                 </td><td>Frequency-domain; Std dev; Magnitude of acceleration of subject;
+</td></tr><tr><td>70.</td><td>"fBodyAccMag.meanFreq.."            </td><td>Frequency-domain; Mean frequency; Magnitude of acceleration of subject;
+</td></tr><tr><td>71.</td><td>"fBodyBodyAccJerkMag.mean.."        </td><td>Frequency-domain; Mean; Magnitude of jerk of acceleration of subject;
+</td></tr><tr><td>72.</td><td>"fBodyBodyAccJerkMag.std.."         </td><td>Frequency-domain; Std dev; Magnitude of jerk of acceleration of subject;
+</td></tr><tr><td>73.</td><td>"fBodyBodyAccJerkMag.meanFreq.."    </td><td>Frequency-domain; Mean frequency; Magnitude of jerk of acceleration of subject;
+</td></tr><tr><td>74.</td><td>"fBodyBodyGyroMag.mean.."           </td><td>Frequency-domain; Mean; Magnitude of gyroscope measurement of subject;
+</td></tr><tr><td>75.</td><td>"fBodyBodyGyroMag.std.."            </td><td>Frequency-domain; Std dev; Magnitude of gyroscope measurement of subject;
+</td></tr><tr><td>76.</td><td>"fBodyBodyGyroMag.meanFreq.."       </td><td>Frequency-domain; Mean frequency; Magnitude of gyroscope measurement of subject;
+</td></tr><tr><td>77.</td><td>"fBodyBodyGyroJerkMag.mean.."       </td><td>Frequency-domain; Mean; Magnitude of jerk of gyroscope measurement of subject;
+</td></tr><tr><td>78.</td><td>"fBodyBodyGyroJerkMag.std.."        </td><td>Frequency-domain; Std dev; Magnitude of jerk of gyroscope measurement of subject;
+</td></tr><tr><td>79.</td><td>"fBodyBodyGyroJerkMag.meanFreq.."   </td><td>Frequency-domain; Mean frequency; Magnitude of jerk of gyroscope measurement of subject;
+</td></tr><tr><td>80.</td><td>"subject"                           </td><td>Subject of the observation;
+</td></tr><tr><td>81.</td><td>"activity"                          </td><td>Activity performed by subject during observation window;
+</td></tr>
+</tbody>
+</table>
 
 ## Other notes
 The original dataset contained a number of variables that were the calculated angle between two vectors. Because this variable is a measure of comparison between two vectors, it was not included in tidy dataset. The two vectors being compared are the mean of their respective sample windows, and are provided in the tidy dataset but the angle between them is not included.
