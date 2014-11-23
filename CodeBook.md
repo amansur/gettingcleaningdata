@@ -19,7 +19,7 @@ The tidy dataset consists of observations from both training and test datasets m
 * Descriptive variable labels attached to the columns.
 * Subject and activity labels were included for each observation. 
 * Mean and standard deviation of variables in each sample window/observation period were extracted
-* The mean of each variable was obtained, grouped by activity and subject. These means are reported in the tidy dataset. The variables are listed below.
+* The mean of each variable was obtained, grouped by activity and subject. These means are reported in the tidy dataset in long form.
 
 ## Tidy data variable listing
 <table>
