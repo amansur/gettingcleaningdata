@@ -8,3 +8,4 @@
 
 ## Instructions
 * Execute `run_analysis.R`
+* Tidy dataset may be read into data table with following command: `data <- read.table(file, header=TRUE)`
